@@ -1,0 +1,20 @@
+	
+The dataset includes following relevant features:
+• Outside air temperature, acquired by the sensor in the substation (C, tsp) - > 96,Spoljna temp.,DUMP1
+• Reference temperature (C, trt). -> 102,Refer.temp.,DUMP7
+• Water temperature in the secondary supply line (C, tns) -> 97,Temp.nap.sek.,DUMP2
+• Water temperature in the secondary return line (C, tps) -> 98,Temp.pov.sek.,DUMP3,
+• Water temperature in the primary supply line (C, tnp) -> 652,Merilo 1 - Tn,Merilo1_Tn
+• Water temperature in the primary return line (C, tpp) -> 653,Merilo 1 - Tp,Merilo1_Tp
+• Heat energy transmitted (MWh, e) -> 644,Merilo 1 - Energija,Merilo1_E(kWh) // Kumulativna vrednost
+- Heat power (W?, p) -> 648,Merilo 1 - Snaga,Merilo1_Pe
+	
+	kpTagovi.IdTaga
+	{C967A945-548F-46D1-B36D-29C9C5E436A9},{34567672-C937-49BB-8AFF-208D9777667D},True,96,Spoljna temp.,DUMP1,1,1,0,1000,1,90,3,1,,0
+	{063DF5A4-810F-49CB-9D8C-DAC29FD1F0CB},{34567672-C937-49BB-8AFF-208D9777667D},True,102,Refer.temp.,DUMP7,1,1,0,1000,1,90,3,2,,0
+	{ADAEEA34-8DB2-48CF-9D8D-10DDF2F7BF8A},{34567672-C937-49BB-8AFF-208D9777667D},True,97,Temp.nap.sek.,DUMP2,1,1,0,1000,1,90,3,3,,0
+	{7C720FC5-B099-4BE3-A6BE-1E1918044DA5},{34567672-C937-49BB-8AFF-208D9777667D},True,98,Temp.pov.sek.,DUMP3,1,1,0,1000,1,90,3,4,,0
+	{75BD2725-3F6D-4658-8D3C-136EAF5A010A},{34567672-C937-49BB-8AFF-208D9777667D},True,652,Merilo 1 - Tn,Merilo1_Tn,1,1,0,1000,1,90,3,12,,0
+	{9F77AAEB-2BDD-48FB-9BDB-0086C1C7FE6C},{34567672-C937-49BB-8AFF-208D9777667D},True,653,Merilo 1 - Tp,Merilo1_Tp,1,1,0,1000,1,90,3,13,,0
+	{990BA5A5-F859-4ADE-9EC7-4D0652167327},{34567672-C937-49BB-8AFF-208D9777667D},True,644,Merilo 1 - Energija,Merilo1_E(kWh),2,2,0,10000,1,90,3,9,,0
+	{4E29178D-9C74-4DCA-8E3E-696A01C7434E},{34567672-C937-49BB-8AFF-208D9777667D},True,648,Merilo 1 - Snaga,Merilo1_Pe,2,2,0,10000,1,90,3,10,,0
