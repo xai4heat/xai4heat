@@ -10,7 +10,7 @@ __pycache__/
 env/
 venv/
 ENV/
-.venv
+/.venv
 *.egg-info/
 dist/
 build/
@@ -28,3 +28,4 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
